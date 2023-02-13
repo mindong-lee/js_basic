@@ -1,0 +1,9 @@
+Iteration : 반복, 순회
+Protocol : 규격, 약속, 인터페이스
+
+지원하는 자료형 : Array, String, Map, Set
+
+for..of, spread
+
+객체 내에서 [Symbol.iterator](): IterableIterator<T>; 와 같이 구현돼야 함.
+

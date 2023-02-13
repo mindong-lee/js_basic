@@ -1,0 +1,23 @@
+//Symbol
+//유일한 key를 생성할 수 있음.
+
+const map = new Map();
+
+const key1 = Symbol('key');
+const key2 = Symbol('key');
+
+map.set(key1, 'Hello');
+console.log(map.get(key1));
+console.log(map.get(key2));
+console.log(key1 === key2);
+
+//동일한 이름으로 하나의 key를 사용하고 싶다면, Symbol.for
+//전역 심볼 레지스트리(Global Symbole Registry)
+
+const k1 = Symbol.for('key');
+const k2 = Symbol.for('key');
+console.log(k1 === k2);
+
+//keyFor 전역심볼레지스트리에 저장된 것만 가져올 수 있음
+console.log(Symbol.keyFor(k1));
+console.log(Symbol.keyFor(key1));

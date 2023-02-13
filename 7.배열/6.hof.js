@@ -32,13 +32,3 @@ console.log(ret);
 ret = fruits.filter((item) => item === '🍊');
 
 console.log(ret);
-
-console.clear();
-
-const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-
-ret = nums.map((value) => {
-  if (value % 2 === 0) return value * 3;
-  else return value;
-});
-console.log(ret);

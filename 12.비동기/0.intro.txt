@@ -1,0 +1,10 @@
+브라우저든, 노드든 JavaScript Engine위에서 코드가 동작한다.
+코드를 한 줄씩 실행하면서 생성된 객체는 Memory Heap에 올라간다.
+
+- Call Stack : 하나의 싱글 Context Stack에서 기본적으로 동기적으로 진행한다. (Single Thread)
+
+다만 Web APIs, Node APIs 들(호스트 환경, 런타임 환경)을 이용하면 Multi Thread 의 도움을 받을 수 있다.
+
+- Task Queue
+
+- Event Loop : Call Stack이 비어있을 때 Task Queue에 있는 작업들을 옮겨준다.

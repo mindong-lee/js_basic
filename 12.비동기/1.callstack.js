@@ -13,4 +13,6 @@ function c() {
 try {
   let result = c();
   console.log(result);
-} catch (error) {}
+} catch (error) {
+  console.log(error);
+}

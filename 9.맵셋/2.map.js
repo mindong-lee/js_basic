@@ -9,6 +9,8 @@ console.log(map);
 console.log(map.size);
 console.log(map.has('apple'));
 console.log(map.get('orange'));
+let ch = 'apple';
+console.log(map.has(ch));
 
 map.forEach((value, key, map) => {
   console.log(key);

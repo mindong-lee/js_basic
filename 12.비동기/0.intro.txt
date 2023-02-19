@@ -1,4 +1,4 @@
-브라우저든, 노드든 JavaScript Engine위에서 코드가 동작한다.
+브라우저든, 노드든 JavaScript Engine 위에서 코드가 동작한다.
 코드를 한 줄씩 실행하면서 생성된 객체는 Memory Heap에 올라간다.
 
 - Call Stack : 하나의 싱글 Context Stack에서 기본적으로 동기적으로 진행한다. (Single Thread)

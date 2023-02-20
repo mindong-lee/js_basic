@@ -1,0 +1,5 @@
+prototype이란?
+ - 일상에서도 많이 쓰이는 단어!
+ - 뼈대, 틀
+ - JS is a prototype-based language.
+

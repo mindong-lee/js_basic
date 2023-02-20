@@ -25,3 +25,5 @@ var apple = null;
   }
 }
 console.log(apple);
+
+//4. 함수 레벨 스코프
